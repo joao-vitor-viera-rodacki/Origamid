@@ -1,0 +1,51 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.item{
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #9d9696;
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.aluga{
+    border-radius: 4px;
+    grid-row: 3;
+    grid-column: 3;
+    background: #84991c;
+}
+.comprar{
+    border-radius: 4px;
+    grid-row: 3;
+    background: #84991c;
+}
+.titulo{
+    text-align: center;
+}
+.descricao{
+    place-self: center;
+    padding: 1fr;
+}
+/* Gerais */
+h2{
+    margin: 0% ;
+    grid-column: 1/4;
+    place-self: center;
+}   
+img{
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px black;
+    grid-column: 1/-1;
+    width: 400px;
+    height: 200px;
+}
+
+body{
+    background: rgb(83, 79, 79);
+    font-family: Arial;
+}
