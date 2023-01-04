@@ -1,0 +1,17 @@
+div {
+    background-color: rgb(219, 219, 18);
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+    border: 10px solid #111;
+    margin: 30px;
+}
+body {
+    margin: 0px;
+}
+h1{
+    background-color: blueviolet;
+    width: 160px;
+    border:  4px solid #111;
+    margin: 40px;
+}

@@ -1,0 +1,30 @@
+
+body{
+    font-family: Arial;
+    color: #b2b2b2;
+}
+h2{
+    color: aliceblue;
+}
+h1{
+    color: #111;
+    text-align: center;
+}
+span{
+    color: #febe01;
+}
+div{ 
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #111;
+}
+button{
+    font-weight: 600px;
+    border-color: #111;
+    margin: 0px;
+    height: 30px;
+    border-radius:  5px ;
+    background: #febe01;
+    color : #332200 ;
+}
